@@ -1,13 +1,181 @@
+/*Bandeau */
 .img-head {
     background-image: url("../img/head.png");
     width:100%;
-    height: 600px;
+    height: 200px;
 }
 
-.title-head {
+.titreHead {
+    color:white;
+    font-size:35px;
+    padding:15px;
+    border: 1px solid white;
+    text-align: center;
+    line-height: 20px;
+    float: none;
+    margin: 0 auto;
+}
 
+.titreHead span {
+    color: white;
+    font-size: 25px;
+    background-color:inherit;
+    position: absolute;
 }
 
 .nom {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    word-spacing: 10px;
+}
 
+/*Général*/
+.titreCategorie {
+    border: 1px solid black;
+    color:black;
+    font-size: 40px;
+    padding: 10px;
+    text-align: center;
+    float: none;
+    margin: 0 auto 40px;
+}
+
+.titreCategorie legend {
+    font-size: 15px;
+}
+
+p {
+    line-height: 30px;
+}
+
+/*Profil */
+.photoId {
+    background-image: url("../img/photoId.png");
+    max-width: 100%;
+    height: 220px;
+    border-radius: 15px;
+}
+
+.listProfil {
+    list-style:none;
+}
+
+.listProfil li {
+    line-height: 40px;
+    border-bottom: 1px solid darkgrey;
+
+}
+
+/*Formation et parcours */
+.listeFormation {
+    list-style: none;
+}
+
+.formationSec {
+    border-right: 1px solid darkgray;
+}
+
+.tableFormationAnnee {
+    border-bottom: 1px solid darkgrey;
+}
+
+.tableFormationAnneeUp {
+    font-size: 9px;
+}
+
+.tableFormationAnneeDown {
+    font-size:25px;
+    font-weight: bold;
+}
+
+.listeFormation h4 {
+    font-weight: bolder;
+}
+
+.listeFormation ul {
+    list-style: none;
+    font-size: 12px;
+}
+
+/*Compétences */
+.progress-fieldset {
+    border: 1px solid black;
+    padding-right:30px;
+}
+
+.progress-fieldset legend {
+    border: none;
+}
+
+.progress-list {
+    list-style: none;
+}
+
+.progress {
+    background-color: grey;
+    height: 15px;
+}
+
+.progress-bar {
+    background-color:black;
+    font-size:10px;
+    vertical-align: middle;
+}
+
+.listeConnaissances {
+    line-height: 30px;
+    list-style-image: url("../img/check.png");
+}
+
+/*PortFolio */
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container-card {
+    padding: 2px 16px;
+}
+
+/*footer*/
+footer {
+    background-image: url("../img/footer.png");
+}
+
+.titre-footer {
+    border: 1px solid white;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    position:relative;
+    margin-top: 50px;
+}
+
+.copyright {
+    text-align: center;
+    color:white;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
 }
