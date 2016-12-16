@@ -7,17 +7,15 @@
     <link rel="stylesheet" type="text/css" href="rsc/css/bootstrap-theme.min.css">
     <link rel="stylesheet" type="text/css" href="rsc/css/style.css">
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar">
     <div class="container-fluid">
         <header>
             <!--img haut -->
             <div class="row">
-                <div class=" img-head col-xs-12">
-                    <div class="titreHead col-sm-offset-5 col-sm-3">
-                        <h1>
-                            Prénom NOM
-                        </h1>
-                        <span>Emploi/Métier</span>
+                <div class=" img-head col-xs-12 center-text div-brightness">
+                    <div class="titre">
+                        <h1 class="titreHead"> Prénom NOM </h1>
+                        <span>Intitulé du poste recherché</span>
                     </div>
                 </div>
             </div>
@@ -35,7 +33,8 @@
                                 <li><a href="">Parcours professionnel</a></li>
                                 <li><a href="">Formations</a></li>
                                 <li><a href="">Connaissances</a></li>
-                                <li><a href="">Autres</a></li>
+                                <li><a href="">Portfolio</a></li>
+                                <li><a href="">Hobby</a></li>
                                 <li><a href="">Contact</a></li>
                             </ul>
                         </div>
@@ -50,18 +49,22 @@
             <article class="row">
                 <div class="col-md-12">
                     <div class="row">
-                        <fieldset class="col-sm-offset-5 titreCategorie col-sm-3">
-                            <legend>Qui suis je ?</legend>
-                            Profil
-                        </fieldset>
+                        <div class="col-xs-12 center-text">
+                            <fieldset class="titreCategorie">
+                                <legend>Qui suis je ?</legend>
+                                Profil
+                            </fieldset>
+                        </div>
                     </div>
 
                     <div class="row">
                         <!--photo -->
-                        <div class="col-md-offset-1 col-md-2 photoId"></div>
+                        <div class="col-xs-12 col-sm-offset-1 col-sm-4 col-md-offset-1 col-md-3 photoId">
+                            <img src="rsc/img/photoId.png"/>
+                        </div>
 
                         <!--profil -->
-                        <div class="col-md-3 ">
+                        <div class=" col-xs-12 col-sm-6 col-md-3 ">
                             <ul class="listProfil">
                                 <li>Nom : XXXXXXX XXXXXX</li>
                                 <li>Age : XXXX</li>
@@ -72,7 +75,7 @@
                         </div>
 
                         <!--description -->
-                        <div class="col-md-4 ">
+                        <div class="col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-10 col-md-offset-0 col-md-4">
                             <h2>Mon profil</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget risus venenatis, interdum eros eu, dictum lacus. Integer ullamcorper feugiat est quis volutpat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse posuere, neque eget blandit dignissim, lectus diam sagittis urna, in rutrum velit nulla interdum massa. Nullam porttitor lorem enim, ut vestibulum dui finibus quis. Suspendisse efficitur magna vitae urna condimentum suscipit. Pellentesque odio justo, semper vitae tincidunt id, iaculis id nunc. Proin blandit condimentum auctor. Mauris ut magna odio. Nullam porta lectus vehicula velit lacinia accumsan. Aliquam pharetra ligula nulla, aliquam tempus libero sagittis sit amet. Nam eget viverra justo, sed luctus eros. Phasellus vehicula eu nulla ac condimentum.</p>
                         </div>
@@ -84,10 +87,12 @@
             <article class="row">
                 <div class="row">
                     <div class="row">
-                        <fieldset class="col-sm-offset-5 titreCategorie col-sm-3">
-                            <legend>Mon parcours professionnel</legend>
-                            Expériences
-                        </fieldset>
+                        <div class="col-xs-12 center-text">
+                            <fieldset class="titreCategorie">
+                                <legend>Mon parcours professionnel</legend>
+                                Expériences
+                            </fieldset>
+                        </div>
                     </div>
 
                     <div class="row">
@@ -130,10 +135,12 @@
             <article class="row">
                 <div class="row">
                     <div class="row">
-                        <fieldset class="col-sm-offset-5 titreCategorie col-sm-3">
-                            <legend>Formations</legend>
-                            Mes formations
-                        </fieldset>
+                        <div class="col-xs-12 center-text">
+                            <fieldset class="titreCategorie">
+                                <legend>Formations</legend>
+                                Mes formations
+                            </fieldset>
+                        </div>
                     </div>
 
                     <div class="row">
@@ -175,46 +182,48 @@
             <!--Compétences -->
             <article class="row">
                 <div class="row">
-                    <fieldset class="col-sm-offset-5 titreCategorie col-sm-3">
-                        <legend>Ce que je sais faire</legend>
-                        Compétences
-                    </fieldset>
+                    <div class="col-xs-12 center-text">
+                        <fieldset class="titreCategorie">
+                            <legend>Ce que je sais faire</legend>
+                            Compétences
+                        </fieldset>
+                    </div>
                 </div>
 
-                    <fieldset class="col-md-offset-2 col-md-4 progress-fieldset">
-                        <legend >Compétence A</legend>
-                        <ul class="progress-list">
-                            <li>
-                                <h6>XXXXXXXX</h6>
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-striped active" role="progressbar"
-                                         aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
-                                        80%
-                                    </div>
+                <fieldset class="col-sm-offset-2 col-sm-4 progress-fieldset">
+                    <legend >Compétence A</legend>
+                    <ul class="progress-list">
+                        <li>
+                            <h6>XXXXXXXX</h6>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped active" role="progressbar"
+                                     aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                                    80%
                                 </div>
-                            </li>
-                            <li>
-                                <h6>XXXX</h6>
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-striped active" role="progressbar"
-                                         aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
-                                        100%
-                                    </div>
+                            </div>
+                        </li>
+                        <li>
+                            <h6>XXXX</h6>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped active" role="progressbar"
+                                     aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                    100%
                                 </div>
-                            </li>
-                            <li>
-                                <h6>XXXXXXX</h6>
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-striped active" role="progressbar"
-                                         aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
-                                        50%
-                                    </div>
+                            </div>
+                        </li>
+                        <li>
+                            <h6>XXXXXXX</h6>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped active" role="progressbar"
+                                     aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                                    50%
                                 </div>
-                            </li>
-                        </ul>
-                    </fieldset>
+                            </div>
+                        </li>
+                    </ul>
+                </fieldset>
 
-                <fieldset class="col-md-offset-1 col-md-4 progress-fieldset">
+                <fieldset class="col-sm-offset-1 col-sm-4 progress-fieldset">
                     <legend >Compétence A</legend>
                     <ul class="progress-list">
                         <li>
@@ -250,9 +259,9 @@
 
             <!--langues et connaissances -->
             <article class="row">
-                <div class="col-md-offset-2 col-md-4">
+                <div class="col-xs-offset-1 col-md-offset-2 col-md-4 center-text">
                     <h2>Langues</h2>
-                    <ul class="progress-list">
+                    <ul class="progress-list-langue ">
                         <li>
                             <h6>XXXXXXXX</h6>
                             <div class="progress">
@@ -282,128 +291,238 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-offset-1 col-md-4">
+
+                <div class="col-xs-offset-1 col-md-offset-1 col-md-4 center-text">
                     <h2>Secondaire</h2>
-                    <div class="row">
-                        <ul class="col-md-6 listeConnaissances">
-                            <li>Element A</li>
-                            <li>Element B</li>
-                            <li>Element C</li>
-                            <li>Element D</li>
-                            <li>Element E</li>
-                            <li>Element F</li>
-                        </ul>
-                        <ul class="col-md-6 listeConnaissances">
-                            <li>Element A</li>
-                            <li>Element B</li>
-                            <li>Element C</li>
-                            <li>Element D</li>
-                            <li>Element E</li>
-                            <li>Element F</li>
-                        </ul>
-                    </div>
+                    <table class="table-autre">
+                        <tr>
+                            <td>
+                                <ul class="col-sm-6 listeConnaissances">
+                                    <li>Element A</li>
+                                    <li>Element B</li>
+                                    <li>Element C</li>
+                                    <li>Element D</li>
+                                    <li>Element E</li>
+                                    <li>Element F</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="col-sm-6 listeConnaissances">
+                                    <li>Element A</li>
+                                    <li>Element B</li>
+                                    <li>Element C</li>
+                                    <li>Element D</li>
+                                    <li>Element E</li>
+                                    <li>Element F</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
                 </div>
             </article>
 
             <!--portfolio -->
             <article class="row">
                 <div class="row">
-                    <fieldset class="col-sm-offset-5 titreCategorie col-sm-3">
-                        <legend>Mes réalisations</legend>
-                        PortFolio
+                    <div class="col-xs-12 center-text">
+                        <fieldset class="titreCategorie">
+                            <legend>Mes réalisations</legend>
+                            PortFolio
                     </fieldset>
+                    </div>
                 </div>
 
-                <div class="row">
-                    <div class="col-sm-offset-2 col-md-2 card">
-                        <img src="rsc/img/photoId.png" alt="Application" style="width:100%">
-                        <div class="container-card">
-                            <h4><b>Nom d'application</b></h4>
-                            <p>Phrase Secondaire</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-offset-1 col-md-2 card">
-                        <img src="rsc/img/photoId.png" alt="Application" style="width:100%">
-                        <div class="container-card">
-                            <h4><b>Nom d'application</b></h4>
-                            <p>Phrase Secondaire</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-offset-1 col-md-2 card">
-                        <img src="rsc/img/photoId.png" alt="Application" style="width:100%">
-                        <div class="container-card">
-                            <h4><b>Nom d'application</b></h4>
-                            <p>Phrase Secondaire</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-offset-1 col-md-2 card">
-                        <img src="rsc/img/photoId.png" alt="Application" style="width:100%">
-                        <div class="container-card">
-                            <h4><b>Nom d'application</b></h4>
-                            <p>Phrase Secondaire</p>
-                        </div>
+                <div class="row center-text">
+                    <div class="col-xs-11">
+                        <ul class="liste-portfolio" >
+                            <li>
+                                <div class="card">
+                                    <img src="rsc/img/photoId.png" alt="Application">
+                                    <div class="container-card">
+                                        <h4><b>Nom d'application</b></h4>
+                                        <p>Phrase Secondaire</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="card">
+                                    <img src="rsc/img/photoId.png" alt="Application">
+                                    <div class="container-card">
+                                        <h4><b>Nom d'application</b></h4>
+                                        <p>Phrase Secondaire</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="card">
+                                    <img src="rsc/img/photoId.png" alt="Application">
+                                    <div class="container-card">
+                                        <h4><b>Nom d'application</b></h4>
+                                        <p>Phrase Secondaire</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="card">
+                                    <img src="rsc/img/photoId.png" alt="Application">
+                                    <div class="container-card">
+                                        <h4><b>Nom d'application</b></h4>
+                                        <p>Phrase Secondaire</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="card">
+                                    <img src="rsc/img/photoId.png" alt="Application">
+                                    <div class="container-card">
+                                        <h4><b>Nom d'application</b></h4>
+                                        <p>Phrase Secondaire</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="card">
+                                    <img src="rsc/img/photoId.png" alt="Application">
+                                    <div class="container-card">
+                                        <h4><b>Nom d'application</b></h4>
+                                        <p>Phrase Secondaire</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="card">
+                                    <img src="rsc/img/photoId.png" alt="Application">
+                                    <div class="container-card">
+                                        <h4><b>Nom d'application</b></h4>
+                                        <p>Phrase Secondaire</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+
                     </div>
                 </div>
+            </article>
+
+            <!--hobbies -->
+            <article class="row">
+                <div class="col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-12 center-text">
+                            <fieldset class="titreCategorie">
+                                <legend>Sur mon temps libre</legend>
+                                Hobbies
+                            </fieldset>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <ul class="col-xs-11 liste-hobbies center-text">
+                            <li>
+                                <div class="dropdown">
+                                    <div class="dropdown-content">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida facilisis neque, id pellentesque nibh tristique non. Cras malesuada ligula ac justo pellentesque gravida. Nunc non ligula ac quam consectetur.
+                                    </div>
+                                    <div class="dropdiv">
+                                        <img src="rsc/img/sport.png"/>
+                                        <p>XXXXX XXXX</p>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li>
+                                <div class="dropdown">
+                                    <div class="dropdown-content">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida facilisis neque, id pellentesque nibh tristique non. Cras malesuada ligula ac justo pellentesque gravida. Nunc non ligula ac quam consectetur.
+                                    </div>
+                                    <div class="dropdiv">
+                                        <img src="rsc/img/cinema.png"/>
+                                        <p>XXXXX XXXX</p>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li>
+                                <div class="dropdown">
+                                    <div class="dropdown-content">
+                                        kLorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida facilisis neque, id pellentesque nibh tristique non. Cras malesuada ligula ac justo pellentesque gravida. Nunc non ligula ac quam consectetur.
+                                    </div>
+                                    <div class="dropdiv">
+                                        <img src="rsc/img/games.png"/>
+                                        <p>XXXXX XXXX</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="dropdown">
+                                    <div class="dropdown-content">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida facilisis neque, id pellentesque nibh tristique non. Cras malesuada ligula ac justo pellentesque gravida. Nunc non ligula ac quam consectetur.
+                                    </div>
+                                    <div class="dropdiv">
+                                        <img src="rsc/img/ubuntu.png"/>
+                                        <p>XXXXX XXXX</p>
+                                    </div>
+                                 </div>
+                            </li>
+                            <li>
+                                <div class="dropdown">
+                                    <div class="dropdown-content">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida facilisis neque, id pellentesque nibh tristique non. Cras malesuada ligula ac justo pellentesque gravida. Nunc non ligula ac quam consectetur.
+                                    </div>
+                                    <div class="dropdiv">
+                                        <img src="rsc/img/computer.png"/>
+                                        <p>XXXXX XXXX</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
 
             </article>
         </section>
 
 
         <!--Contact-->
-        <footer class="row">
+        <footer class="row div-brightness">
             <div class="row">
-                <div class="col-xs-12">
+                <div class="col-xs-12 center-text">
                     <h1 class="titre-footer">Contact</h1>
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-md-offset-2 col-md-3">
+                <div class="col-md-offset-1 col-md-3 center-text">
                     <h2>Prenons contact</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dapibus at erat sit amet hendrerit. Integer eu purus leo. Fusce ac facilisis dui, id cursus felis. In sollicitudin lorem id aliquam molestie. Donec tincidunt efficitur vehicula. Proin lacinia turpis a tempor iaculis. Donec congue finibus enim sit amet accumsan. Aliquam.</p>
                 </div>
                 <div class="col-md-offset-1 col-md-3">
-                    <h2>Mon adresse</h2>
-                    <table>
-                        <tr>
-                            <td></td>
-                            <td>Mail</td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td>Téléphone</td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td>Adresse</td>
-                        </tr>
-                    </table>
+                    <h2 class="center-text">Mes coordonnées</h2>
+                    <ul>
+                        <li class="list-phone">XX XX XX XX XX</li>
+                        <li class="list-mail">XXXXXXXX@XXXX.XX</li>
+                        <li class="list-home">XX XXXX XXXXXXXXX XXXXXXXX <br/> XXXXX XXXXXXX</li>
+                    </ul>
+
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 center-text">
                     <h2>Je suis aussi sur...</h2>
-                    <table>
-                        <tr>
-                            <td></td>
-                            <td>Twitter</td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td>Facebook</td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td>Linkedin</td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td>Viadeo</td>
-                        </tr>
-                    </table>
+                    <ul class="list-network">
+                        <li><a href="#"><img src="rsc/img/facebook.png"></a></li>
+                        <li><a href="#"><img src="rsc/img/twitter.png"></a></li>
+                        <li><a href="#"><img src="rsc/img/linkdin.png"></a></li>
+                        <li><a href="#"><img src="rsc/img/www.png"></a></li>
+                        <li><a href="#"><img src="rsc/img/google.png"></a></li>
+                        <li><a href="#"><img src="rsc/img/skype.png"></a></li>
+                        <li><a href="#"><img src="rsc/img/github24.png"></a></li>
+                    </ul>
                 </div>
             </div>
 
             <div class="row">
-                <h4 class="col-xs-12 copyright">Copyright © 2016 nom prénom</h4>
+                <h6 class="col-xs-12 copyright">Copyright © 2016 nom prénom</h6>
             </div>
         </footer>
     </div>
