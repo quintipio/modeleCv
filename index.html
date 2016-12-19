@@ -19,34 +19,38 @@
                     </div>
                 </div>
             </div>
-
-            <!--navbar -->
-            <div class="row">
-            <div class="col-md-12">
-                <nav class="navbar">
-                        <div class="row">
-                            <div class="col-sm-offset-1 col-sm-2 nom">
-                                NOM Prénom
-                            </div>
-                            <ul class="nav navbar-nav col-sm-9">
-                                <li><a href="">Profils</a></li>
-                                <li><a href="">Parcours professionnel</a></li>
-                                <li><a href="">Formations</a></li>
-                                <li><a href="">Connaissances</a></li>
-                                <li><a href="">Portfolio</a></li>
-                                <li><a href="">Hobby</a></li>
-                                <li><a href="">Contact</a></li>
-                            </ul>
-                        </div>
-                </nav>
-            </div>
-        </div>
         </header>
+
+        <!--navbar -->
+        <nav class="navbar navbar-default" id="nav_bar">
+            <div class="container">
+                <div class="navbar-header">
+                    NOM Prénom
+                </div>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="navbar-collapse collapse" >
+                    <ul class="nav navbar-nav">
+                        <li><a href="#profil" class="active">Profils</a></li>
+                        <li><a href="#parcoursPro">Parcours professionnel</a></li>
+                        <li><a href="#formation">Formations</a></li>
+                        <li><a href="#competences">Connaissances</a></li>
+                        <li><a href="#portFolio">Portfolio</a></li>
+                        <li><a href="#hobbies">Hobbies</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
 
 
         <section>
             <!-- PROFIL -->
-            <article class="row">
+            <article class="row" id="profil">
                 <div class="col-md-12">
                     <div class="row">
                         <div class="col-xs-12 center-text">
@@ -84,7 +88,7 @@
             </article>
 
             <!--Parcours pro -->
-            <article class="row">
+            <article class="row" id="parcoursPro">
                 <div class="row">
                     <div class="row">
                         <div class="col-xs-12 center-text">
@@ -132,7 +136,7 @@
             </article>
 
             <!--Formations -->
-            <article class="row">
+            <article class="row" id="formation">
                 <div class="row">
                     <div class="row">
                         <div class="col-xs-12 center-text">
@@ -180,7 +184,7 @@
             </article>
 
             <!--Compétences -->
-            <article class="row">
+            <article class="row" id="competences">
                 <div class="row">
                     <div class="col-xs-12 center-text">
                         <fieldset class="titreCategorie">
@@ -197,7 +201,7 @@
                             <h6>XXXXXXXX</h6>
                             <div class="progress">
                                 <div class="progress-bar progress-bar-striped active" role="progressbar"
-                                     aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                                     aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:0%" data-percentage="80">
                                     80%
                                 </div>
                             </div>
@@ -206,7 +210,7 @@
                             <h6>XXXX</h6>
                             <div class="progress">
                                 <div class="progress-bar progress-bar-striped active" role="progressbar"
-                                     aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                     aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:0%" data-percentage="100">
                                     100%
                                 </div>
                             </div>
@@ -215,7 +219,7 @@
                             <h6>XXXXXXX</h6>
                             <div class="progress">
                                 <div class="progress-bar progress-bar-striped active" role="progressbar"
-                                     aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                                     aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:0%" data-percentage="50">
                                     50%
                                 </div>
                             </div>
@@ -230,7 +234,7 @@
                             <h6>XXXXXXXX</h6>
                             <div class="progress">
                                 <div class="progress-bar progress-bar-striped active" role="progressbar"
-                                     aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                                     aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:0%" data-percentage="80">
                                     80%
                                 </div>
                             </div>
@@ -239,7 +243,7 @@
                             <h6>XXXX</h6>
                             <div class="progress">
                                 <div class="progress-bar progress-bar-striped active" role="progressbar"
-                                     aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                     aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:0%" data-percentage="100">
                                     100%
                                 </div>
                             </div>
@@ -248,7 +252,7 @@
                             <h6>XXXXXXX</h6>
                             <div class="progress">
                                 <div class="progress-bar progress-bar-striped active" role="progressbar"
-                                     aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                                     aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:0%" data-percentage="50">
                                     50%
                                 </div>
                             </div>
@@ -258,7 +262,7 @@
             </article>
 
             <!--langues et connaissances -->
-            <article class="row">
+            <article class="row" id="toto">
                 <div class="col-xs-offset-1 col-md-offset-2 col-md-4 center-text">
                     <h2>Langues</h2>
                     <ul class="progress-list-langue ">
@@ -266,7 +270,7 @@
                             <h6>XXXXXXXX</h6>
                             <div class="progress">
                                 <div class="progress-bar progress-bar-striped active" role="progressbar"
-                                     aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                                     aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:0%" data-percentage="80">
                                     80%
                                 </div>
                             </div>
@@ -275,7 +279,7 @@
                             <h6>XXXX</h6>
                             <div class="progress">
                                 <div class="progress-bar progress-bar-striped active" role="progressbar"
-                                     aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                     aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:0%" data-percentage="100">
                                     100%
                                 </div>
                             </div>
@@ -284,7 +288,7 @@
                             <h6>XXXXXXX</h6>
                             <div class="progress">
                                 <div class="progress-bar progress-bar-striped active" role="progressbar"
-                                     aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                                     aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:0%" data-percentage="50">
                                     50%
                                 </div>
                             </div>
@@ -322,7 +326,7 @@
             </article>
 
             <!--portfolio -->
-            <article class="row">
+            <article class="row" id="portFolio">
                 <div class="row">
                     <div class="col-xs-12 center-text">
                         <fieldset class="titreCategorie">
@@ -340,7 +344,24 @@
                                     <img src="rsc/img/photoId.png" alt="Application">
                                     <div class="container-card">
                                         <h4><b>Nom d'application</b></h4>
-                                        <p>Phrase Secondaire</p>
+                                        <button data-toggle="modal" href="#infosA" class="btn btn-primary">En voir plus...</button>
+                                    </div>
+                                </div>
+
+                                <div class="modal fade" id="infosA">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">x</button>
+                                                <h4 class="modal-title">Plus d'informations</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed sapien sem. Aliquam libero magna, rutrum a massa a, auctor pretium nibh. Nam et tortor eget lacus egestas tristique. Phasellus maximus justo tortor, at aliquam lacus vestibulum vel. Nunc facilisis urna eu ligula commodo, ac euismod nulla faucibus. Donec arcu metus, commodo in eleifend sit amet, porttitor ac lorem. Mauris at dapibus purus.
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button class="btn btn-info" data-dismiss="modal">Fermer</button>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </li>
@@ -349,7 +370,24 @@
                                     <img src="rsc/img/photoId.png" alt="Application">
                                     <div class="container-card">
                                         <h4><b>Nom d'application</b></h4>
-                                        <p>Phrase Secondaire</p>
+                                        <button data-toggle="modal" href="#infosB" class="btn btn-primary">En voir plus...</button>
+                                    </div>
+                                </div>
+
+                                <div class="modal fade" id="infosB">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">x</button>
+                                                <h4 class="modal-title">Plus d'informations</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed sapien sem. Aliquam libero magna, rutrum a massa a, auctor pretium nibh. Nam et tortor eget lacus egestas tristique. Phasellus maximus justo tortor, at aliquam lacus vestibulum vel. Nunc facilisis urna eu ligula commodo, ac euismod nulla faucibus. Donec arcu metus, commodo in eleifend sit amet, porttitor ac lorem. Mauris at dapibus purus.
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button class="btn btn-info" data-dismiss="modal">Fermer</button>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </li>
@@ -358,7 +396,24 @@
                                     <img src="rsc/img/photoId.png" alt="Application">
                                     <div class="container-card">
                                         <h4><b>Nom d'application</b></h4>
-                                        <p>Phrase Secondaire</p>
+                                        <button data-toggle="modal" href="#infosC" class="btn btn-primary">En voir plus...</button>
+                                    </div>
+                                </div>
+
+                                <div class="modal fade" id="infosC">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">x</button>
+                                                <h4 class="modal-title">Plus d'informations</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed sapien sem. Aliquam libero magna, rutrum a massa a, auctor pretium nibh. Nam et tortor eget lacus egestas tristique. Phasellus maximus justo tortor, at aliquam lacus vestibulum vel. Nunc facilisis urna eu ligula commodo, ac euismod nulla faucibus. Donec arcu metus, commodo in eleifend sit amet, porttitor ac lorem. Mauris at dapibus purus.
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button class="btn btn-info" data-dismiss="modal">Fermer</button>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </li>
@@ -367,7 +422,24 @@
                                     <img src="rsc/img/photoId.png" alt="Application">
                                     <div class="container-card">
                                         <h4><b>Nom d'application</b></h4>
-                                        <p>Phrase Secondaire</p>
+                                        <button data-toggle="modal" href="#infosD" class="btn btn-primary">En voir plus...</button>
+                                    </div>
+                                </div>
+
+                                <div class="modal fade" id="infosD">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">x</button>
+                                                <h4 class="modal-title">Plus d'informations</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed sapien sem. Aliquam libero magna, rutrum a massa a, auctor pretium nibh. Nam et tortor eget lacus egestas tristique. Phasellus maximus justo tortor, at aliquam lacus vestibulum vel. Nunc facilisis urna eu ligula commodo, ac euismod nulla faucibus. Donec arcu metus, commodo in eleifend sit amet, porttitor ac lorem. Mauris at dapibus purus.
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button class="btn btn-info" data-dismiss="modal">Fermer</button>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </li>
@@ -376,7 +448,24 @@
                                     <img src="rsc/img/photoId.png" alt="Application">
                                     <div class="container-card">
                                         <h4><b>Nom d'application</b></h4>
-                                        <p>Phrase Secondaire</p>
+                                        <button data-toggle="modal" href="#infosE" class="btn btn-primary">En voir plus...</button>
+                                    </div>
+                                </div>
+
+                                <div class="modal fade" id="infosE">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">x</button>
+                                                <h4 class="modal-title">Plus d'informations</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed sapien sem. Aliquam libero magna, rutrum a massa a, auctor pretium nibh. Nam et tortor eget lacus egestas tristique. Phasellus maximus justo tortor, at aliquam lacus vestibulum vel. Nunc facilisis urna eu ligula commodo, ac euismod nulla faucibus. Donec arcu metus, commodo in eleifend sit amet, porttitor ac lorem. Mauris at dapibus purus.
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button class="btn btn-info" data-dismiss="modal">Fermer</button>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </li>
@@ -385,7 +474,24 @@
                                     <img src="rsc/img/photoId.png" alt="Application">
                                     <div class="container-card">
                                         <h4><b>Nom d'application</b></h4>
-                                        <p>Phrase Secondaire</p>
+                                        <button data-toggle="modal" href="#infosF" class="btn btn-primary">En voir plus...</button>
+                                    </div>
+                                </div>
+
+                                <div class="modal fade" id="infosF">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">x</button>
+                                                <h4 class="modal-title">Plus d'informations</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed sapien sem. Aliquam libero magna, rutrum a massa a, auctor pretium nibh. Nam et tortor eget lacus egestas tristique. Phasellus maximus justo tortor, at aliquam lacus vestibulum vel. Nunc facilisis urna eu ligula commodo, ac euismod nulla faucibus. Donec arcu metus, commodo in eleifend sit amet, porttitor ac lorem. Mauris at dapibus purus.
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button class="btn btn-info" data-dismiss="modal">Fermer</button>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </li>
@@ -394,18 +500,34 @@
                                     <img src="rsc/img/photoId.png" alt="Application">
                                     <div class="container-card">
                                         <h4><b>Nom d'application</b></h4>
-                                        <p>Phrase Secondaire</p>
+                                        <button data-toggle="modal" href="#infosG" class="btn btn-primary">En voir plus...</button>
+                                    </div>
+                                </div>
+
+                                <div class="modal fade" id="infosG">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">x</button>
+                                                <h4 class="modal-title">Plus d'informations</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed sapien sem. Aliquam libero magna, rutrum a massa a, auctor pretium nibh. Nam et tortor eget lacus egestas tristique. Phasellus maximus justo tortor, at aliquam lacus vestibulum vel. Nunc facilisis urna eu ligula commodo, ac euismod nulla faucibus. Donec arcu metus, commodo in eleifend sit amet, porttitor ac lorem. Mauris at dapibus purus.
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button class="btn btn-info" data-dismiss="modal">Fermer</button>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </li>
                         </ul>
-
                     </div>
                 </div>
             </article>
 
             <!--hobbies -->
-            <article class="row">
+            <article class="row" id="hobbies">
                 <div class="col-xs-12">
                     <div class="row">
                         <div class="col-xs-12 center-text">
@@ -486,7 +608,7 @@
 
 
         <!--Contact-->
-        <footer class="row div-brightness">
+        <footer class="row div-brightness" id="contact">
             <div class="row">
                 <div class="col-xs-12 center-text">
                     <h1 class="titre-footer">Contact</h1>
@@ -510,13 +632,13 @@
                 <div class="col-md-3 center-text">
                     <h2>Je suis aussi sur...</h2>
                     <ul class="list-network">
-                        <li><a href="#"><img src="rsc/img/facebook.png"></a></li>
-                        <li><a href="#"><img src="rsc/img/twitter.png"></a></li>
-                        <li><a href="#"><img src="rsc/img/linkdin.png"></a></li>
-                        <li><a href="#"><img src="rsc/img/www.png"></a></li>
-                        <li><a href="#"><img src="rsc/img/google.png"></a></li>
-                        <li><a href="#"><img src="rsc/img/skype.png"></a></li>
-                        <li><a href="#"><img src="rsc/img/github24.png"></a></li>
+                        <li><a href="#"><img src="rsc/img/facebook.png" alt="Facebook"></a></li>
+                        <li><a href="#"><img src="rsc/img/twitter.png" alt="Twitter"></a></li>
+                        <li><a href="#"><img src="rsc/img/linkdin.png" alt="LinkeDin"></a></li>
+                        <li><a href="#"><img src="rsc/img/www.png" alt="Viadeo"></a></li>
+                        <li><a href="#"><img src="rsc/img/google.png" alt="Google plus"></a></li>
+                        <li><a href="#"><img src="rsc/img/skype.png" alt="Skype"></a></li>
+                        <li><a href="#"><img src="rsc/img/github24.png" alt="Github"></a></li>
                     </ul>
                 </div>
             </div>

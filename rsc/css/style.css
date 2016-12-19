@@ -29,7 +29,14 @@
     font-family: PtSansNarrowBold;
 }
 
-.nom {
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+
+.navbar-header {
     background-color: black;
     color: white;
     font-size: 25px;
@@ -38,6 +45,30 @@
     display: inline-block;
     text-align: center;
 }
+
+.navbar-default {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+}
+
+.nav li:hover {
+    background-color: #e7e7e7;
+}
+
+.navbar-static-top{
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.navbar-fixed {
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+}
+
 
 /*Général*/
 article {
@@ -193,6 +224,11 @@ p {
 .card img {
     max-width:200px;
 }
+
+.card button {
+    margin-bottom: 20px;
+}
+
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
