@@ -2,7 +2,9 @@
 .img-head {
     width:100%;
     height: auto;
-    background: url("../img/head.jpg") round;
+    background: url("../img/head.jpg") no-repeat center center fixed;
+    background-size:cover;
+    -webkit-background-size: cover;
 }
 
 .div-brightness {
@@ -194,6 +196,8 @@ p {
     background-color:black;
     font-size:10px;
     vertical-align: middle;
+    -webkit-transition: none !important;
+    transition: none !important;
 }
 
 .listeConnaissances {
@@ -285,12 +289,14 @@ p {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     top:-60px;
     max-width: 200px;
+    z-index: 300;
 }
 
 .dropdown-content-bis{
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     max-width: 200px;
+    z-index: 300;
 }
 
 .dropdown:hover .dropdown-content {
@@ -308,9 +314,11 @@ p {
 
 /*footer*/
 footer {
-    background: url("../img/footer.jpg") round;
+    background: url("../img/footer.jpg");
     color:ghostwhite;
-    margin-top:40px;
+    background-size:cover;
+    -webkit-background-size: cover;
+    z-index: 100;
 }
 
 .center-text {

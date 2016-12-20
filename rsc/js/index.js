@@ -63,15 +63,15 @@ $(document).ready(function() {
         var oTop = $('#competences').offset().top - window.innerHeight;
         $(window).scroll(function(){
 
-            var pTop = $('body').scrollTop();
+            var pTop = $(document).scrollTop();
             if( pTop > oTop ){
-                start_count();
+                start_anim();
             }
         });
     });
 
     //méthode d'animation des progress bar
-    function start_count(){
+    function start_anim(){
         if(executeProgress) {
             executeProgress = false;
             setTimeout(function(){
