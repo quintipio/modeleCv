@@ -1,8 +1,11 @@
 $(document).ready(function() {
 
+    /**variable globale **/
     var executeProgress = true;
     var height = 0;
 
+    //re-dimensionnement de l'image d'entête en fonction de la taille de l'écran
+    //puis positionnement du titre
     $(function()    {
         $('.img-head').css({ height: $(window).innerHeight() });
         $('.titre').css({ 'margin-top': ($(window).innerHeight()/2)-70 });
@@ -14,7 +17,9 @@ $(document).ready(function() {
         height = $(window).innerHeight();
     });
 
-    /**Nav bar**/
+
+    //permet à la bar de navigation de rester sous l'entête si la fenêtre est en haut de la page
+    //ou positionne l'entête en haut de l'écran si la page est plus basse
     $(window).scroll(function () {
         if ($(window).scrollTop() > height) {
             $('#nav_bar').addClass('navbar-static-top');
@@ -28,6 +33,7 @@ $(document).ready(function() {
         }
     });
 
+    //permet de se déplacer par zone de manière fluide lorsqu'on clique sur un lien de la barre de navigation
     $(function () {
         $('li>a').on('click', function(e) {
             e.preventDefault();
@@ -40,19 +46,19 @@ $(document).ready(function() {
         });
     });
 
-    /**Progress bar**/
+    //fait une animation de chargement des progress bar lorsque l'écran arrive sur cette partie de la page
     $(function() {
-        var oTop = $('#toto').offset().top - window.innerHeight;
+        var oTop = $('#competences').offset().top - window.innerHeight;
         $(window).scroll(function(){
 
             var pTop = $('body').scrollTop();
-            console.log( pTop + ' - ' + oTop );   //just for your debugging
             if( pTop > oTop ){
                 start_count();
             }
         });
     });
 
+    //méthode d'animation des progress bar
     function start_count(){
         if(executeProgress) {
             executeProgress = false;

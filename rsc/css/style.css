@@ -1,8 +1,8 @@
 /*Bandeau */
 .img-head {
-    background-image: url("../img/head.png");
     width:100%;
     height: auto;
+    background: url("../img/head.jpg") round;
 }
 
 .div-brightness {
@@ -22,8 +22,8 @@
 }
 
 .titreHead {
-    font-size:50px;
-    padding:15px;
+    font-size:40px;
+    padding:25px;
     border: 1px solid white;
     vertical-align: middle;
     line-height: 20px;
@@ -38,13 +38,13 @@
 }
 
 .navbar-header {
-    background-color: black;
-    color: white;
     font-size: 25px;
     font-weight: bolder;
     word-spacing: 10px;
     display: inline-block;
     text-align: center;
+    padding : 5px;
+    margin-right: 50px;
 }
 
 .navbar-default {
@@ -73,7 +73,12 @@
 
 /*Général*/
 article {
-    margin-top:30px;
+    padding-bottom:30px;
+    padding-top:30px;
+}
+
+.grey-background{
+    background-color: #e7e7e7;
 }
 
 .container-fluid {
@@ -140,6 +145,7 @@ p {
 
 .tableFormationAnnee {
     border-bottom: 1px solid darkgrey;
+    text-align: right;
 }
 
 .tableFormationAnneeUp {
@@ -304,7 +310,7 @@ p {
 
 /*footer*/
 footer {
-    background-image: url("../img/footer.png");
+    background: url("../img/footer.jpg") round;
     color:ghostwhite;
 }
 
