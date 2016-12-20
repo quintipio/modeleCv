@@ -7,15 +7,27 @@ $(document).ready(function() {
     //re-dimensionnement de l'image d'entête en fonction de la taille de l'écran
     //puis positionnement du titre
     $(function()    {
+        calculerSize();
+
+        $(window).resize(function(){
+            calculerSize();
+        });
+    });
+
+    function calculerSize() {
+        height = $(window).innerHeight();
         $('.img-head').css({ height: $(window).innerHeight() });
         $('.titre').css({ 'margin-top': ($(window).innerHeight()/2)-70 });
-        $(window).resize(function(){
-            $('.img-head').css({ height: $(window).innerHeight() });
-            $('.titre').css({ 'margin-top': ($(window).innerHeight()/2)-70 });
-            height = $(window).innerHeight();
-        });
-        height = $(window).innerHeight();
-    });
+        //changement de css pour les hobbies
+        if($(window).innerWidth() > 768) {
+            $('.dropdown-content-bis').addClass('dropdown-content');
+            $('.dropdown-content-bis').removeClass('dropdown-content-bis');
+        }
+        else {
+            $('.dropdown-content').addClass('dropdown-content-bis');
+            $('.dropdown-content').removeClass('dropdown-content');
+        }
+    }
 
 
     //permet à la bar de navigation de rester sous l'entête si la fenêtre est en haut de la page
