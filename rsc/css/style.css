@@ -20,11 +20,11 @@
     color: white;
     float: none;
     margin: 0 auto;
-    font-size: 30px;
+    font-size: 1.75em;
 }
 
 .titreHead {
-    font-size:40px;
+    font-size:2.85em;
     padding:25px;
     border: 1px solid white;
     vertical-align: middle;
@@ -40,7 +40,7 @@
 }
 
 .navbar-header {
-    font-size: 25px;
+    font-size: 1.78em;
     font-weight: bolder;
     word-spacing: 10px;
     display: inline-block;
@@ -74,6 +74,7 @@
 
 
 /*Général*/
+
 article {
     padding-bottom:30px;
     padding-top:30px;
@@ -99,7 +100,7 @@ article {
 
 .titreCategorie {
     border: 1px solid black;
-    font-size: 40px;
+    font-size: 2.85em;
     padding: 10px;
     text-align: center;
     margin: 0 auto 40px;
@@ -109,7 +110,7 @@ article {
 }
 
 .titreCategorie legend {
-    font-size: 15px;
+    font-size: 0.50em;
 }
 
 p {
@@ -151,11 +152,11 @@ p {
 }
 
 .tableFormationAnneeUp {
-    font-size: 9px;
+    font-size: 0.64em;
 }
 
 .tableFormationAnneeDown {
-    font-size:25px;
+    font-size:1.78em;
     font-weight: bold;
 }
 
@@ -165,7 +166,7 @@ p {
 
 .listeFormation ul {
     list-style: none;
-    font-size: 12px;
+    font-size: 0.85em;
 }
 
 /*Compétences */
@@ -194,7 +195,7 @@ p {
 
 .progress-bar {
     background-color:black;
-    font-size:10px;
+    font-size:0.71em;
     vertical-align: middle;
     -webkit-transition: none !important;
     transition: none !important;
@@ -202,7 +203,7 @@ p {
 
 .listeConnaissances {
     line-height: 30px;
-    list-style-image: url("../img/check.png");
+    list-style: none;
 }
 
 .table-autre {
@@ -267,7 +268,7 @@ p {
     text-align: center;
     cursor: pointer;
     padding-top:10px;
-    font-size: 16px;
+    font-size: 1.15em;
     margin-bottom: 13px;
 }
 
@@ -339,16 +340,8 @@ footer {
     text-align: center;
 }
 
-.list-phone {
-    list-style-image: url("../img/phone.png");
-}
-
-.list-mail {
-    list-style-image: url("../img/mail.png");
-}
-
-.list-home {
-    list-style-image: url("../img/home.png");
+.list-contact {
+    list-style: none;
 }
 
 .list-network {
