@@ -151,7 +151,7 @@ p {
 }
 
 .tableFormationAnneeUp {
-    font-size: 0.64em;
+    font-size: 0.90em;
 }
 
 .tableFormationAnneeDown {
@@ -166,6 +166,10 @@ p {
 .listeFormation ul {
     list-style: none;
     font-size: 0.85em;
+}
+
+.listeFormation ul li {
+    margin-bottom:15px;
 }
 
 /*Compétences */
@@ -269,6 +273,10 @@ p {
     padding-top:10px;
     font-size: 1.15em;
     margin-bottom: 13px;
+}
+
+.dropdiv {
+    min-width: 75px;
 }
 
 .dropdiv img {
