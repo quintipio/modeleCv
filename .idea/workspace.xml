@@ -2,66 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1684e7a4-22bc-4603-a60e-41acb33777cc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/less/animated.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/less/bordered-pulled.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/less/core.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/less/fixed-width.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/less/font-awesome.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/less/icons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/less/larger.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/less/list.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/less/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/less/path.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/less/rotated-flipped.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/less/screen-reader.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/less/stacked.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/less/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/scss/_animated.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/scss/_bordered-pulled.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/scss/_core.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/scss/_fixed-width.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/scss/_icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/scss/_larger.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/scss/_list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/scss/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/scss/_path.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/scss/_rotated-flipped.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/scss/_screen-reader.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/scss/_stacked.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/scss/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/scss/font-awesome.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rsc/img/check.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rsc/img/cinema.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rsc/img/computer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rsc/img/facebook.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rsc/img/games.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rsc/img/github.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rsc/img/github24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rsc/img/gitub256.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rsc/img/google.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rsc/img/home.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rsc/img/linkdin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rsc/img/mail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rsc/img/phone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rsc/img/skype.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rsc/img/sport.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rsc/img/twitter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rsc/img/ubuntu.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rsc/img/windows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rsc/img/windows24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rsc/img/windows256.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rsc/img/www.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rsc/css/style.css" afterPath="$PROJECT_DIR$/rsc/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rsc/js/index.js" afterPath="$PROJECT_DIR$/rsc/js/index.js" />
     </list>
     <ignored path="modeleCv.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -86,8 +28,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="623" column="39" selection-start-line="623" selection-start-column="39" selection-end-line="623" selection-end-column="39" />
+            <state relative-caret-position="153">
+              <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#fieldset#0;n#article#3;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#li#1;n#ul#0;n#fieldset#0;n#article#3;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -107,8 +49,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rsc/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="347" column="21" selection-start-line="347" selection-start-column="21" selection-end-line="347" selection-end-column="21" />
+            <state relative-caret-position="289">
+              <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -731,7 +673,7 @@
       <workItem from="1481872820318" duration="8513000" />
       <workItem from="1482132899639" duration="18926000" />
       <workItem from="1482218246270" duration="16256000" />
-      <workItem from="1483429380749" duration="7917000" />
+      <workItem from="1483429380749" duration="8841000" />
     </task>
     <task id="LOCAL-00001" summary="Structure de base">
       <created>1481559014229</created>
@@ -803,11 +745,18 @@
       <option name="project" value="LOCAL" />
       <updated>1482241112213</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Ajout de font-awesome, changement de la taille de la police en em, disparition du menu sur les petits écrans lors du déplacement du scroll automatique">
+      <created>1483437826460</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1483437826460</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113098000" />
+    <option name="totallyTimeSpent" value="114022000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -861,7 +810,8 @@
     <MESSAGE value="Améliorations diverses" />
     <MESSAGE value="Correction sur les hobbies" />
     <MESSAGE value="Corrections graphiques" />
-    <option name="LAST_COMMIT_MESSAGE" value="Corrections graphiques" />
+    <MESSAGE value="Ajout de font-awesome, changement de la taille de la police en em, disparition du menu sur les petits écrans lors du déplacement du scroll automatique" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout de font-awesome, changement de la taille de la police en em, disparition du menu sur les petits écrans lors du déplacement du scroll automatique" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1186,8 +1136,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="623" column="39" selection-start-line="623" selection-start-column="39" selection-end-line="623" selection-end-column="39" />
+        <state relative-caret-position="153">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#fieldset#0;n#article#3;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#li#1;n#ul#0;n#fieldset#0;n#article#3;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1205,8 +1155,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rsc/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="347" column="21" selection-start-line="347" selection-start-column="21" selection-end-line="347" selection-end-column="21" />
+        <state relative-caret-position="289">
+          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
           <folding />
         </state>
       </provider>
