@@ -48,7 +48,7 @@ $(document).ready(function() {
     //permet de se déplacer par zone de manière fluide lorsqu'on clique sur un lien de la barre de navigation
     $(function () {
         var navMain = $("#nav_bar");
-        $('li>a').on('click', function(e) {
+        $('li[id^="nav"]>a').on('click', function(e) {
             $('.navbar-toggle').click();
             e.preventDefault();
             var hash = this.hash;
